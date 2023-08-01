@@ -1,0 +1,111 @@
+.footer {
+    background: var(--blackColor);
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 87px;
+}
+
+.footer__list-logo {
+    color: #FFF;
+    font-family: var(--mon);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    text-transform: uppercase;
+    padding-bottom: 24px;
+    padding-top: 100px;
+}
+
+.footer__list-link {
+    color: var(--whiteColor);
+    font-family: var(--mon);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer__content-descr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__list-title {
+    color: #FFF;
+    font-family: var(--mon);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer__contacts-title {
+    color: #FFF;
+    font-family: var(--mon);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+    padding-top: 100px;
+    padding-bottom: 36px;
+}
+
+.contact {
+    color: var(--whiteColor);
+    font-family: var(--mon);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-variant: all-small-caps;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+    .social__net-title {
+    color: var(--whiteColor);
+    font-family: var(--mon);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-variant: all-small-caps;
+    letter-spacing: 2.5px;
+    padding-top: 40px;
+}
+
+.social__net{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.social__networks{
+    display: flex;
+    gap: 26px;
+}
